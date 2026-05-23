@@ -89,3 +89,9 @@ loader, classes = get_data_loader(
 
 ![Sample MRI Batch](assets/sample_batch.png)
 
+The BRISC 2025 dataset contains both classification and segmentation tasks for brain tumor MRI analysis. 
+
+The classification portion of the dataset is used to train models to predict tumor categories including glioma, meningioma, pituitary tumor, and no tumor.
+
+The segmentation portion includes ground-truth tumor masks that will later be used to evaluate explainability methods such as Grad-CAM, Integrated Gradients, and Score-CAM using Dice coefficient and Intersection over Union (IoU) metrics.
+
