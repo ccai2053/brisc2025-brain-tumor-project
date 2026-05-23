@@ -45,4 +45,29 @@ brisc2025-brain-tumor-project/
 
 notebooks/data_demo.ipynb
 
+## Methods Overview
+
+In progress.
+
+Planned methods include:
+
+CNN image classification
+Grad-CAM visualization
+Integrated Gradients
+Score-CAM
+Segmentation mask comparison
+
+## Results
+
+In progress.
+
+## Conclusion
+
+In progress.
+
+## Installation
+
 pip install -e .
+
+## Package Usage
+
