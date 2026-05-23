@@ -71,4 +71,13 @@ In progress.
 pip install -e .
 
 ## Package Usage
+import sys
+sys.path.append("./src")
+
+from brisc_project.brisc import get_data_loader
+
+loader, classes = get_data_loader(
+    "data/sample/train",
+    batch_size=5
+)
 
