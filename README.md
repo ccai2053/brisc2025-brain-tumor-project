@@ -25,3 +25,24 @@ Sample MRI images are included in this repository under:
 
 ```text
 data/sample/train/
+
+brisc2025-brain-tumor-project/
+
+├── data/
+│   └── sample/
+
+├── notebooks/
+│   └── data_demo.ipynb
+
+├── src/
+│   └── brisc_project/
+│       ├── __init__.py
+│       └── brisc.py
+
+├── README.md
+├── requirements.txt
+└── pyproject.toml
+
+notebooks/data_demo.ipynb
+
+pip install -e .
