@@ -9,7 +9,7 @@ dependencies = [
     "torch",
     "torchvision",
     "matplotlib",
-    "jupyter",
+    "ipykernel",
     "pillow"
 ]
 
