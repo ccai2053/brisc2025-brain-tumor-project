@@ -42,6 +42,7 @@ brisc2025-brain-tumor-project/
 ├── README.md
 ├── requirements.txt
 └── pyproject.toml
+```
 
 notebooks/data_demo.ipynb
 
