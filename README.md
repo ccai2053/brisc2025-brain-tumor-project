@@ -2,17 +2,26 @@
 
 This repository contains a deep learning project using the BRISC 2025 MRI classification dataset.
 
+## Project Overview
+
+The goal of this project is to classify MRI brain scans into different tumor categories using deep learning and PyTorch.
+
+The dataset includes MRI scans from four classes:
+
+- glioma
+- meningioma
+- pituitary
+- no_tumor
+
+This milestone focuses on building a working PyTorch data loader and demonstrating successful image loading and visualization.
+
 ## Dataset
+
+Dataset source:
 
 https://www.kaggle.com/datasets/briscdataset/brisc2025
 
-## Project Structure
+Sample MRI images are included in this repository under:
 
-- `data/` contains sample MRI images
-- `notebooks/` contains the data loading notebook
-- `src/` contains the dataset loader
-
-## Installation
-
-```bash
-pip install -e .
+```text
+data/sample/train/
