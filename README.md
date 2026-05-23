@@ -68,9 +68,12 @@ In progress.
 
 ## Installation
 
+```bash
 pip install -e .
+```
 
 ## Package Usage
+```python
 import sys
 sys.path.append("./src")
 
@@ -80,4 +83,9 @@ loader, classes = get_data_loader(
     "data/sample/train",
     batch_size=5
 )
+```
+
+## Example MRI Batch
+
+![Sample MRI Batch](assets/sample_batch.png)
 
