@@ -3,4 +3,5 @@ __pycache__/
 .ipynb_checkpoints/
 
 brain_tumor/
+
 models/*.pth
