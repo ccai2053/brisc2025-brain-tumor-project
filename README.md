@@ -61,9 +61,17 @@ python src/brisc_project/train_model.py
 
 Classification metrics were evaluated on the test dataset.
 
-* Accuracy: 87.4%
-* Precision, Recall, and F1 score were calculated using scikit-learn.
-* A confusion matrix was generated to visualize class performance.
+#### Classification Report
+
+| Class | Precision | Recall | F1-Score |
+|---------|---------:|---------:|---------:|
+| Glioma | 0.99 | 0.63 | 0.77 |
+| Meningioma | 0.73 | 0.97 | 0.83 |
+| No Tumor | 0.91 | 0.99 | 0.95 |
+| Pituitary | 0.99 | 0.93 | 0.96 |
+| **Weighted Average** | **0.90** | **0.87** | **0.87** |
+
+The model achieved an overall test accuracy of 87.4%. Performance was strongest for pituitary tumors and no-tumor images, with F1-scores of 0.96 and 0.95 respectively. Meningioma classification achieved high recall (0.97), while glioma classification was more challenging, resulting in a lower recall of 0.63. Overall, the model demonstrated strong classification performance across the four classes.
 
 ### Confusion Matrix
 
