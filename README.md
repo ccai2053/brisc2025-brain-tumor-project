@@ -69,6 +69,8 @@ Classification metrics were evaluated on the test dataset.
 
 ![Confusion Matrix](assets/confusion_matrix.png)
 
+The confusion matrix shows that the model correctly classified most MRI scans across all four categories. Some misclassifications occurred between tumor classes, suggesting that certain tumor types share visual characteristics that make them more difficult to distinguish.
+
 ### Interpretability Evaluation
 
 Interpretability methods were compared against the ground-truth tumor segmentation masks using:
