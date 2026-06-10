@@ -61,7 +61,7 @@ python src/brisc_project/train_model.py
 
 Classification metrics were evaluated on the test dataset.
 
-* Accuracy: 81.5%
+* Accuracy: 84.7%
 * Precision, Recall, and F1 score were calculated using scikit-learn.
 * A confusion matrix was generated to visualize class performance.
 
