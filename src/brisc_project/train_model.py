@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-from models import get_resnet18
-from brisc import get_data_loader
+from brisc_project.models import get_resnet18
+from brisc_project.brisc import get_data_loader
 
 
 def train_model():
