@@ -80,10 +80,9 @@ Interpretability methods were compared against the ground-truth tumor segmentati
 
 #### Results
 
-| Method    | Average Dice | Average IoU |
-| --------- | -----------: | ----------: |
-| Grad-CAM  |       0.0513 |      0.0268 |
-| Score-CAM |       0.0269 |      0.0141 |
+Method       Average Dice    Average IoU
+Grad-CAM        0.137           0.079
+Score-CAM       0.128           0.077
 
 Grad-CAM achieved higher overlap scores than Score-CAM on the evaluated images. However, both methods produced relatively low Dice and IoU values, suggesting that strong classification performance does not necessarily imply precise localization of tumor regions.
 
