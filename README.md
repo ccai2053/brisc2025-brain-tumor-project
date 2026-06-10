@@ -100,7 +100,7 @@ notebooks/evaluation.ipynb
 Several limitations should be noted:
 
 * Only a single architecture (ResNet18) was evaluated.
-* Interpretability methods were evaluated on a limited number of images.
+* Interpretability methods were evaluated on 50 correctly classified tumor images.
 * Dice and IoU results are sensitive to threshold selection.
 * Heatmap explanations provide approximate localization rather than precise tumor boundaries.
 * Results are limited to the BRISC 2025 dataset.
