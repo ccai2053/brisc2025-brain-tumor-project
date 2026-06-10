@@ -65,6 +65,10 @@ Classification metrics were evaluated on the test dataset.
 * Precision, Recall, and F1 score were calculated using scikit-learn.
 * A confusion matrix was generated to visualize class performance.
 
+### Confusion Matrix
+
+![Confusion Matrix](assets/confusion_matrix.png)
+
 ### Interpretability Evaluation
 
 Interpretability methods were compared against the ground-truth tumor segmentation masks using:
